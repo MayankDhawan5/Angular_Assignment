@@ -1,0 +1,166 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  height: 60px;
+  width: 90px;
+}
+
+.col-md-4 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+.row {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#myForm {
+  margin: 20px;
+}
+
+#gender label {
+  margin-right: 10px;
+}
+
+div label {
+  margin-bottom: 10px;
+}
+
+.form {
+  margin: 40px;
+}
+
+.female {
+  padding-left: 20px;
+}
+
+#loginForm {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+button {
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.previewbutton:disabled:hover {
+  background-color: #dc3545;
+  transition: 0.5s;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px;
+}
+
+.checkbox {
+  padding-left: 25px;
+}
+
+.photo {
+  padding-left: 0px;
+}
+
+.previewbutton {
+  margin: 15px 0;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    padding: 20px;
+  }
+  .female {
+    padding-left: 20px;
+  }
+
+  .previewbutton {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .form {
+    margin: 0;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .previewbutton {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 320px) {
+  input[type="file"] {
+    width: 100%;
+  }
+  .col-md-4 {
+    width: 100%;
+  }
+  .previewbutton {
+    margin-left: 0;
+  }
+  .female {
+    padding-left: 0;
+  }
+}
